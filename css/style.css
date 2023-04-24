@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+:root {
+  --heading: #e0e1dd;
+  --para: #b3b4b1;
+  --para-tint: #868785;
+  --white: #fff;
+  --black: #000;
+  --helper: #0d1b2a;
+  --helper-tint: #1b263b;
+  --gradient: linear-gradient(0deg, #415a77 0%, #415a77 60%);
+  --box-shadow: 0rem 0rem 5rem 0rem #e0e1dd;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  background-color: var(--helper);
+}
+
+h1, h2, h3{
+    color: var(--heading);
+}
+
+h1 {
+  font-size: 8rem;
+  background-color: var(--gradient);
+}
+
+h1, h2{
+    font-weight: 800;
+}
+
+h2 {
+  font-size: 6rem;
+}
+
+h3 {
+  font-size: 4.4rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.65rem;
+  color: var(--para);
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.section {
+    padding: 9rem 0;
+}
+
+.container{
+    max-width: 140rem;
+    margin: 0 auto;
+}
+
+.grid{
+display: grid;
+gap: 9rem;
+}
+
+.grid-two-column{
+ grid-template-columns: repeat(2, 1fr);
+}
+
+
+.btn{
+    background-color: var(--helper);
+    padding: 1.6rem 3.2rem;
+    color: var(--para);
+    font-size: 1.65rem;
+    border: none;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 9rem;
+    transition: all 0.3s linear;
+    display: inline-block;
+}
+
+.btn:hover{
+    box-shadow: var(--box-shadow);
+}
+
+    /* Temp */
+img{
+
+    width: 250px;
+}
