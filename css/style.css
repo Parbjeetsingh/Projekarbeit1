@@ -46,13 +46,22 @@ h3 {
 }
 
 p {
-  font-size: 1.65rem;
+  font-size: 2rem;
   color: var(--para);
   font-weight: 400;
 }
 
 li {
   list-style: none;
+  font-size: 2rem;
+  color: var(--para);
+  font-weight: 400;
+}
+
+b{
+  font-size: 3rem;
+  color: var(--para);
+  font-weight: 400;
 }
 
 a:link{
@@ -100,3 +109,58 @@ img{
 
     width: 250px;
 }
+
+.grid-container {
+  display: grid;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-rows: 100px 100px;
+	grid-template-columns: 100px 100px 100px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-rows: 100px 100px;
+	grid-template-columns: 100px 100px 100px;
+	grid-gap: 80px;
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-gap: 5px;
+}
+
+.grid-item1 {
+  background: blue;
+  text-align: center;
+  border: black 5px solid;
+  grid-column-start: 1; 
+  grid-column-end: 5; 
+  grid-row-start: 1; 
+  grid-row-end: 4;
+}
+
+.grid-item2 {
+  background: grey;
+  text-align: center;
+  border: black 5px solid;
+  grid-column-start: 1; 
+  grid-column-end: 5;  
+
+  
+
+  
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: 100px [Line1] 100px [Line2] 100px [Line3] 100px [Line4];
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-gap: 5px;
+}
+
+
+
+
