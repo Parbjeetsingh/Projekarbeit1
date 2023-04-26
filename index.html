@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,23 +20,23 @@
     <!-------------------- 
        Header Abschnitt 
       --------------------->
-    <header class="header">
-      <div class="header-logo logo">Parbjeet Singh</div>
-      <div>
-        <nav class="header-navbar">
-          <ul class="nav-lists">
-            <li class="nav-list">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-list"><a class="nav-link" href="ueber_mich.html">Über Mich</a></li>
-            <li class="nav-list"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
-            <li class="nav-list"><a class="nav-link" href="ferienorte">Ferienorte</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <!-------------------- 
+      <header class="header">
+        <div class="header-logo logo">Parbjeet Singh</div>
+        <div>
+          <nav class="header-navbar">
+            <ul class="nav-lists">
+              <li class="nav-list">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-list"><a class="nav-link" href="ueber_mich.html">Über Mich</a></li>
+              <li class="nav-list"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+              <li class="nav-list"><a class="nav-link" href="ferienorte">Ferienorte</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+     <!-------------------- 
         Willkommen Abschnitt 
       --------------------->
       <section class="section section-hero">
@@ -51,32 +51,34 @@
 
       <section class="section section-places">
         <div class="container">
-          <h2>Orte</h2>
+          <h2 class="section-heading">Orte</h2>
           <div class="places grid grid-two-column">
           <!-------------------- 
             Venedig Abschnitt 
           --------------------->
           <div class="place">
             <!-- Bild -->
-            <div class="place-image">
+            <figure class="place-image">
               <img class="place-img" src="medien/venedig.jpg" alt="Venidig" />
-            </div>
+              <figcaption class="place-image-source">Quelle:</figcaption>
+            </figure>
             <!-- Information -->
             <div class="place-information">
               <h3 class="place-name">Venedig</h3>
               <a class="place-btn btn btn-dark" href="/venedig.html">Meine Erfahrungen</a>
             </div>
           </div>
-          <!-------------------- 
+   <!-------------------- 
           Paris Abschnitt 
           --------------------->
           <div class="place">
             <!-- Bild -->
-            <div class="place-image">
+            <figure class="place-image">
               <img class="place-img" src="medien/paris.jpg" alt="Venidig" />
-            </div>
+              <figcaption class="place-image-source">Quelle:</figcaption>
+            </figure>
             <!-- Information -->
-            <div class="place-data">
+            <div class="place-information">
               <h3 class="place-name">Venedig</h3>
               <a class="place-btn btn btn-dark" href="/paris.html">Meine Erfahrungen</a>
             </div>
@@ -84,29 +86,31 @@
           <!-------------------- 
           Amritsar Abschnitt 
           --------------------->
-          <div>
+          <div class="place">
             <!-- Bild -->
-            <div>
-              <img src="medien/amritsar.jpg" alt="Amritsar" />
-            </div>
+            <figure class="place-image">
+              <img class="place-img" src="medien/amritsar.jpg" alt="Amritsar" />
+              <figcaption class="place-image-source">Quelle:</figcaption>
+            </figure>
             <!-- Information -->
-            <div>
-              <h3>Amritsar</h3>
-              <a class="btn btn-dark" href="/amritsar.html">Meine Erfahrungen</a>
+            <div class="place-information">
+              <h3 class="place-name">Amritsar</h3>
+              <a class="place-btn btn btn-dark" href="/amritsar.html">Meine Erfahrungen</a>
             </div>
           </div>
-          <!-------------------- 
+             <!-------------------- 
           Faro Abschnitt 
           --------------------->
-          <div>
+          <div class="place">
             <!-- Bild -->
-            <div>
-              <img src="medien/faro.jpg" alt="Faro" />
-            </div>
+            <figure class="place-image">
+              <img class="place-img" src="medien/faro.jpg" alt="Faro" />
+              <figcaption class="place-image-source">Quelle:</figcaption>
+            </figure>
             <!-- Information -->
-            <div>
-              <h3>Faro</h3>
-              <a class="btn btn-dark" href="/faro.html">Meine Erfahrungen</a>
+            <div class="place-information">
+              <h3 class="place-name">Faro</h3>
+              <a class="place-btn btn btn-dark" href="/faro.html">Meine Erfahrungen</a>
             </div>
           </div>
         </div>
@@ -114,5 +118,7 @@
       </section>
     </main>
     <footer></footer>
-  </body>
+ </body>
 </html>
+
+

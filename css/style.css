@@ -14,7 +14,11 @@
   --helper: #0d1b2a;
   --helper-tint: #081019;
   --secondary-helper: #1b263b;
-  --gradient: linear-gradient(0deg, rgba(65, 90, 119, 0.2) 0%, rgba(65, 90, 119, 0.5) 60%);
+  --gradient: linear-gradient(
+    0deg,
+    rgba(65, 90, 119, 0.2) 0%,
+    rgba(65, 90, 119, 0.5) 60%
+  );
   --box-shadow: 0rem 0rem 5rem 0rem #1b263b;
 }
 
@@ -48,6 +52,10 @@ h3 {
   font-weight: 600;
 }
 
+.section-heading {
+  margin-bottom: 2rem;
+}
+
 p {
   font-size: 1.65rem;
   color: var(--para);
@@ -64,8 +72,8 @@ a:link {
 
 .section {
   padding: 9rem 0;
+  text-align: center;
 }
-
 .container {
   max-width: 140rem;
   margin: 0 auto;
@@ -73,7 +81,7 @@ a:link {
 
 .grid {
   display: grid;
-  gap: 9rem;
+  gap: 5rem;
 }
 
 .grid-two-column {
@@ -95,12 +103,12 @@ a:link {
 
 .btn:hover {
   box-shadow: var(--box-shadow);
+  transform: scale(1.1);
 }
 
 section:nth-child(even) {
   background-color: var(--helper-tint);
 }
-
 
 /* Temp */
 img {
@@ -110,7 +118,7 @@ img {
 /*************** 
     Header Section
 ***************/
-.header{
+.header {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -120,25 +128,25 @@ img {
   color: var(--para);
 }
 
-.logo{
+.logo {
   font-size: 4rem;
 }
 
-.nav-lists{
+.nav-lists {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5rem;
 }
 
-.nav-link{
+.nav-link {
   color: inherit;
 }
 
 /*************** 
     Hero Section 
 ***************/
-.section-hero{
+.section-hero {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,45 +158,56 @@ img {
   background-position: bottom;
   height: 80vh;
 }
-
-.hero-heading{
+.hero-heading {
   margin-bottom: 2rem;
 }
 
 /*************** 
     Places Section 
 ***************/
-
-.place{
+.place {
+  align-self: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--helper);
-  text-align: center;
-  align-self: center;
-  justify-self: center;
+  border-radius: 3rem;
+}
+
+.place-information {
   padding: 2rem;
-  border-radius: 2rem;
 }
 
-.place-image{
+.place-image {
   overflow: hidden;
-  border-radius: 2rem;
-}
-
-.place-img{
-  width: 50rem;
-  border-radius: 2rem;
-  transition: all 0.3s linear;
+  border-radius: 2rem 2rem 0 0;
+  position: relative;
+  width: 100%;
   height: 50rem;
 }
+.place-img {
+  transition: all 0.3s linear;
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+}
 
-.place-img:hover{
+.place-image-source {
+  position: absolute;
+  color: var(--para);
+  bottom: 2rem;
+  left: 2rem;
+  font-size: 1.2rem;
+  background-color: var(--helper);
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.place-img:hover {
   transform: scale(1.1);
 }
 
-.place-btn{
-  margin-top: 2rem;
+.place-btn {
+  margin-top: 2rem;
 }
-
