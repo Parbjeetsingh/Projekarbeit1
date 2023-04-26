@@ -154,3 +154,41 @@ img {
 .hero-heading{
   margin-bottom: 2rem;
 }
+
+/*************** 
+    Places Section 
+***************/
+
+.place{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--helper);
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.place-image{
+  overflow: hidden;
+  border-radius: 2rem;
+}
+
+.place-img{
+  width: 50rem;
+  border-radius: 2rem;
+  transition: all 0.3s linear;
+  height: 50rem;
+}
+
+.place-img:hover{
+  transform: scale(1.1);
+}
+
+.place-btn{
+  margin-top: 2rem;
+}
+
