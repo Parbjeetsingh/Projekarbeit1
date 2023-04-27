@@ -111,9 +111,7 @@ section:nth-child(even) {
 }
 
 /* Temp */
-img {
-  width: 250px;
-}
+
 
 /*************** 
     Header Section
@@ -141,6 +139,11 @@ img {
 
 .nav-link {
   color: inherit;
+  transition: all 0.3s linear;
+}
+
+.nav-link:hover, .nav-link:active{
+  color: var(--para-tint);
 }
 
 /*************** 
@@ -195,7 +198,6 @@ img {
 
 .place-image-source {
   position: absolute;
-  color: var(--para);
   bottom: 2rem;
   left: 2rem;
   font-size: 1.2rem;
@@ -204,10 +206,111 @@ img {
   border-radius: 2rem;
 }
 
+.place-image-source-link{
+  color: var(--para);
+
+}
+
+.place-image-source-link:hover{
+  text-decoration: underline;
+}
+
 .place-img:hover {
   transform: scale(1.1);
 }
 
 .place-btn {
-  margin-top: 2rem;
+  margin-top: 2rem;
 }
+
+/*************** 
+    Kontakt Abschnitt 
+***************/
+.contact-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-input-field{
+  display: flex;
+  flex-direction: column;
+  color: var(--para);
+}
+
+.contact-input{
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 50rem;
+}
+
+.contact-input-label{
+  font-size: 1.65rem;
+  text-align: left;
+}
+
+.contact-input-message{
+  height: 20rem;
+  max-width: 50rem;
+  max-height: 20rem;
+  min-width: 50rem;
+  min-height: 20rem;
+}
+
+.contact-btn-send{
+  margin-top: 1rem;
+}
+
+/*************** 
+    Über mich Abschnitt 
+***************/
+.section-about-img{
+  width: 60%;
+  justify-self: center;
+  border-radius: 2rem;
+}
+
+.about-card{
+  background-color: var(--helper-tint);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.section-about-text{
+  align-self: center;
+  justify-self: center;
+}
+
+/*************** 
+    Place Page
+***************/
+.place
+
+.place-page-image{
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.place-page-feedback-list{
+font-size: 1.65rem;
+color: var(--para);
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+}
+
+/*************** 
+    Footer 
+***************/
+.footer{
+padding: 4rem 0;
+  text-align: center;
+  font-size: 1.65rem;
+  color: var(--para);
+}
+
+

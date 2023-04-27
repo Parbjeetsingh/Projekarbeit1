@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!-- SEO Tags -->
+   <meta name="description" content="Es geht um meine Ferienorte und berichte wie es war."> 
+   <meta name="robots" content="all">
+   <meta name="author" content="Parbjeet Singh">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,7 +17,7 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Orte die Parbjeet besucht hat</title>
+    <title>Parbjeet Singh Ferienorte - Home</title>
   </head>
 
   <body>
@@ -28,9 +32,10 @@
               <li class="nav-list">
                 <a class="nav-link" href="/">Home</a>
               </li>
+              <li class="nav-list"><a class="nav-link" href="#ferienorte">Ferienorte</a></li>
               <li class="nav-list"><a class="nav-link" href="ueber_mich.html">Über Mich</a></li>
               <li class="nav-list"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
-              <li class="nav-list"><a class="nav-link" href="ferienorte">Ferienorte</a></li>
+
             </ul>
           </nav>
         </div>
@@ -49,7 +54,7 @@
         </div>
       </section>
 
-      <section class="section section-places">
+      <section id="ferienorte" class="section section-places">
         <div class="container">
           <h2 class="section-heading">Orte</h2>
           <div class="places grid grid-two-column">
@@ -59,8 +64,8 @@
           <div class="place">
             <!-- Bild -->
             <figure class="place-image">
-              <img class="place-img" src="medien/venedig.jpg" alt="Venidig" />
-              <figcaption class="place-image-source">Quelle:</figcaption>
+              <img class="place-img" src="medien/venedig_stadt.jpg" alt="Venidig" />
+              <figcaption class="place-image-source"><a class="place-image-source-link" href="https://unsplash.com/de/fotos/zunQwMy5B6M" target="_blank">Quelle: Foto von Rebe Adelaida auf Unsplash</a></figcaption>
             </figure>
             <!-- Information -->
             <div class="place-information">
@@ -74,12 +79,12 @@
           <div class="place">
             <!-- Bild -->
             <figure class="place-image">
-              <img class="place-img" src="medien/paris.jpg" alt="Venidig" />
-              <figcaption class="place-image-source">Quelle:</figcaption>
+              <img class="place-img" src="medien/paris_stadt.jpg" alt="Venidig" />
+              <figcaption class="place-image-source"><a class="place-image-source-link" href="https://unsplash.com/de/fotos/R5scocnOOdM" target="_blank"> Quelle: Foto von Léonard Cotte auf Unsplash</a></figcaption>
             </figure>
             <!-- Information -->
             <div class="place-information">
-              <h3 class="place-name">Venedig</h3>
+              <h3 class="place-name">Paris</h3>
               <a class="place-btn btn btn-dark" href="/paris.html">Meine Erfahrungen</a>
             </div>
           </div>
@@ -90,7 +95,7 @@
             <!-- Bild -->
             <figure class="place-image">
               <img class="place-img" src="medien/amritsar.jpg" alt="Amritsar" />
-              <figcaption class="place-image-source">Quelle:</figcaption>
+              <figcaption class="place-image-source"><a class="place-image-source-link" href="https://unsplash.com/de/fotos/LZZlSpnvunM" target="_blank">Quelle: Foto von Rhythm Kwatra auf Unsplash</a></figcaption>
             </figure>
             <!-- Information -->
             <div class="place-information">
@@ -105,7 +110,7 @@
             <!-- Bild -->
             <figure class="place-image">
               <img class="place-img" src="medien/faro.jpg" alt="Faro" />
-              <figcaption class="place-image-source">Quelle:</figcaption>
+              <figcaption class="place-image-source"><a class="place-image-source-link" href="https://unsplash.com/de/fotos/3HS4KkwA-mM" target="_blank">Quelle: Foto von Javier Balseiro auf Unsplash</a></figcaption>
             </figure>
             <!-- Information -->
             <div class="place-information">
@@ -117,7 +122,14 @@
       </div>
       </section>
     </main>
-    <footer></footer>
+           <!-------------------- 
+         Footer Abschnitt
+          --------------------->
+    <footer class="footer">
+      <div class="container footer-text" >
+      &copy; Copyright 2023 Parbjeet Singh
+      </div>
+    </footer>
  </body>
 </html>
 
