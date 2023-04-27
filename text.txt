@@ -1,0 +1,289 @@
+Vendig:
+<div>
+          <div>
+            <h2>Venedig</h2>
+            <img src="venedig.jpg" alt="die stadt venedig" />
+          </div>
+          <div>
+            <div>
+              <h3>kleiner Steckbrief</h3>
+              <p>
+                Venedig liegt in Italien.Es hat 260'000 Einwohner und eine
+                Fläche von 414 km².
+              </p>
+              <img src="medien/venedig_stadt.jpg" alt="die stadt venedig" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>Meine Erfahrungen</h3>
+              <p>
+                2021 in den Frühlingsferien ist mein Onkel von Indien mit seiner
+                Familie besuchen gekommen. Dann haben wir geplant nach Venedig
+                zu gehen. Wir sind mit zwei Autos zu 12 nach Venedig gefahren.
+                Meine Tante von Will wollte auch nach Venedig. Wir waren 3
+                Familien und haben die Fahrt genossen. Wo wir ankamen, haben wir
+                ein Hotel für 3 Nächte gebucht. Nächsten Tag haben wir die Stadt
+                erkundigt und eine Originale italienische Pizza gegessen. Wir
+                haben ein kleines Schiff gemietet. Es war sehr schön. Wir haben
+                dann in einem Restaurant noch gefeiert. Am letzten Tag haben wir
+                eine Familie in Venedig besucht und sind dann nach Hause
+                gefahren.
+              </p>
+              <img src="venedig.jpg" alt="flus venedig" />
+              <img src="venedig_boot_mieten.jpg" alt="venedig boot mieten" />
+              <img src="venedig 2.jpg" alt="venedig" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>Wie sehr lohnt sich eine Reise nach Venedig?</h3>
+              <ul>
+                <li><b>Anreise: 8/10</b></li>
+                <li>
+                  wir sind mit dem Auto nach Italien gefahren. Man könnte ein
+                  Flug nach Venedig buchen und der Flug würde nur 1h gehen.
+                </li>
+
+                <li><b>Die Location: 9/10</b></li>
+                <li>
+                  Super viel zu sehen einfach Allround eine Super Erfahrung.
+                </li>
+
+                <li><b>Spaßfaktor: 7/10 </b></li>
+                <li>
+                  Es gibt Menge zu tun, gutes Essen und sehr schöne Gegend, aber
+                  es hat noch was gefehlt.
+                </li>
+
+                <li><b>Wohlfaktor: 3/10 </b></li>
+                <li>
+                  Ich habe mich nicht so wohl gefühlt, weil die Leute dort eine
+                  andere Sprache gesprochen haben, und es waren zu viele
+                  Menschen dort.
+                </li>
+
+                <li><b> Hin Faktor: 9/10 </b></li>
+                <li>
+                  Ich will dort wieder hin, weil ich noch nicht alles gesehen
+                  habe.
+                </li>
+              </ul>
+              <h3>Gesamtpunktzahl: 36/50</h3>
+            </div>
+          </div>
+        </div>
+
+
+
+        Paris:
+         <div>
+          <h2>Paris</h2>
+          <img src="medien/paris_stadt.jpg" alt="die stadt Paris" />
+        </div>
+        <div>
+          <nav>
+            <h3>kleiner Steckbrief</h3>
+            <p>
+              Paris ist die Hauptstadt von Frankreich.Es hat 2.145.000 Einwohner
+              und eine Fläche von 105,40 km².
+            </p>
+          </nav>
+        </div>
+        <div>
+          <nav>
+            <h3>Meine Erfahrungen</h3>
+            <p>
+              2018 sind wir mit dem Auto nach Paris gefahren. Wir wollten mein
+              Onkel wieder sehen. 9 Stunden später sind wir, bei meinem Onkel
+              angekommen und haben bei ihn übernachtet. Nächsten Tag am Morgen
+              haben wir Frühstück in einer Bäckerei gegessen. Es war, dass beste
+              Frühstück wo ich jemals gegessen habe. Nach denn Frühstück haben
+              wir den Eifelturm besucht. Der Eifelturm ist am Renovieren
+              gewesen, deshalb konnten wir leider nicht nach oben. Dann sind wir
+              denn Fuente de los Jardines del Trocadero besuchen gegangen. Es
+              war sogar besser als der Eifelturm. Am Abend haben wir noch
+              gefeiert und sind am nächsten Morgen nach Belgien gefahren. Dort
+              wartete, der beste Freund meines Vaters.
+            </p>
+            <img src="paris.jpg" alt="Wasserpark" />
+          </nav>
+        </div>
+
+        <div>
+          <nav>
+            <h3>Wie sehr lohnt sich eine Reise nach Paris?</h3>
+            <ul>
+              <li><b>Anreise: 7/10</b></li>
+              <li>
+                Wir sind mit Auto nach Paris gefahren aber man kann auch ein
+                Flug nach Paris nehmen und dauert nur 1h.
+              </li>
+
+              <li><b>Die Location: 10/10</b></li>
+              <li>
+                Super viel zu sehen, Sehr sauber und sehr schön. In der Stadt
+                hat es sehr viele Sehenswürdigkeiten.
+              </li>
+
+              <li><b>Spaßfaktor: 7/10 </b></li>
+              <li>
+                Das Frühstück ist sehr fein gewesen. Es war sehr spannend den
+                Eifelturm in echt zu sehen.
+              </li>
+
+              <li><b>Wohlfaktor: 7/10 </b></li>
+              <li>
+                Die Leute waren freundlich und hilfsbereit. Ich habe mich sehr
+                wohl gefühlt aber die Leute haben eine andere Sprache
+                gesprochen.
+              </li>
+
+              <li><b> Hin Faktor: 6/10</b></li>
+              <li>Ich will wieder hin, aber ich könnte es auch verzichten.</li>
+            </ul>
+            <h3>Gesamtpunktzahl: 37/50</h3>
+          </nav>
+        </div>
+
+        Amritsar:
+
+        <div>
+          <h2>Amritsar</h2>
+          <img src="medien/amritsar.jpg" alt="Amritsar" />
+        </div>
+        <div>
+          <nav>
+            <h3>kleiner Steckbrief</h3>
+            <p>
+              Amritsar liegt in Indien (Bundesstaat Punjab).Es hat 1.159.000
+              Einwohner und eine Fläche von 136 km².
+            </p>
+          </nav>
+        </div>
+        <div>
+          <nav>
+            <h3>Meine Erfahrungen</h3>
+            <p>
+              Am 11.07.2022 sind wir nach New Delhi in Indien geflogen. Es war
+              eine 18-stündige Reise. Wir hatten in Riad einen Flugzeug Wechsel.
+              Wir sind dann, zu meiner Tante gegangen und haben bei ihr
+              übernachtet. 11 Tage später sind wir zu Vierzehnt mit einen
+              Privatbus nach Amritsar gefahren. Wir sind am Morgen 3:00 Uhr
+              angekommen und sind direkt zu den Golden Tempel beten gegangen. Es
+              war ein riesiger stau und mussten 3h warten, zum beten. Nach den
+              beten hatten wir ein Hotel Für 1 Nacht gebucht. Dann haben wir die
+              Stadt erkundet. Am Abend haben wir in einen kleinen Imbiss
+              gegessen. Nächsten Tag sind wir wieder nach Hause gefahren und
+              haben die Tage in Indien genossen.
+            </p>
+            <img src="golden_tempel.jpg" alt="Golden Tempel" />
+          </nav>
+        </div>
+
+        <div>
+          <nav>
+            <img src="parbjeet_indien.jpg" alt="Parbjeet" />
+
+            <h3>Wie sehr lohnt sich eine Reise nach Amritsar?</h3>
+            <ul>
+              <li><b>Anreise: 3/10</b></li>
+              <li>
+                Der Flug nach Indien war sehr teuer und ist ein sehr Langer
+                Flug.
+              </li>
+
+              <li><b>Die Location: 7/10</b></li>
+              <li>
+                Super viel zu sehen, aber es ist nicht so sauber, es gibt immer
+                und wieder stau, aber eine sehr krasse Erfahrung.
+              </li>
+
+              <li><b>Spaßfaktor: 10/10 </b></li>
+              <li>
+                Ich sehe meine Familie, Fahre Motorrad herum und das Essen
+                schmeckt.
+              </li>
+
+              <li><b>Wohlfaktor: 10/10 </b></li>
+              <li>
+                Es ist meine Heimat und alle sprechen die gleiche Sprache. Ich
+                fühle mich sehr wohl bei meiner Familie.
+              </li>
+
+              <li><b> Hin Faktor: 9/10</b></li>
+              <li>Ich will dort hin und meine Familie wieder sehen.</li>
+            </ul>
+            <h3>Gesamtpunktzahl: 39/50</h3>
+          </nav>
+        </div>
+
+
+        Faro:
+
+        <div>
+          <h2>Faro</h2>
+          <img src="faro.jpg" alt=" Stadt Faro" />
+        </div>
+        <div>
+          <nav>
+            <h3>kleiner Steckbrief</h3>
+            <p>
+              Faro liegt in Portugal.Es hat 438.864 Einwohner und eine Fläche
+              von 202,57 km² .
+            </p>
+          </nav>
+        </div>
+        <div>
+          <nav>
+            <h3>Meine Erfahrungen</h3>
+            <p>
+              Am 08.07.2019 sind wir für zwei Wochen nach Portugal geflogen. Wir
+              sind in Lissabon angekommen und sind mit dem Taxi nach Faro
+              gefahren. In Faro hat meine Familie auf uns gewartet. Wir haben
+              zwei Wochen bei ihnen übernachtet. Sie hatten zwei Läden in Faro
+              und ich konnte mir nehmen, was ich wollte. Wir sind fast jeden Tag
+              Strand gewesen. Der Strand war sehr schön, aber es waren zu viele
+              Menschen dort. Ich wollte nicht Schwimmen, weil ich gedachte, dass
+              ein Hai kommt. Das Essen in Portugal hatte ich nicht so gern
+              gegessen. Ich mag halt keine Meeresfrüchte. Sonst hat es mir sehr
+              gefallen.
+            </p>
+            <img src="faro_strand.jpg" alt="Faro Strand" />
+          </nav>
+        </div>
+
+        <div>
+          <nav>
+            <h3>Wie sehr lohnt sich eine Reise nach Faro?</h3>
+            <ul>
+              <li><b>Anreise: 6/10</b></li>
+              <li>
+                Wir sind mit dem Flugzeug nach Lissabon geflogen und es hat 3
+                Stunden gedauert.
+              </li>
+
+              <li><b>Die Location: 9/10</b></li>
+              <li>Der Strand mit den Blauen Meer, war einfach nur schön.</li>
+
+              <li><b>Spaßfaktor: 7/10 </b></li>
+              <li>
+                Wir haben jeden Tag in Strand gespielt. Das Essen in Portugal
+                fand ich nicht so lecker. Sonst hat es sehr Spass gemacht.
+              </li>
+
+              <li><b>Wohlfaktor: 8/10 </b></li>
+              <li>
+                Die Leute waren sehr nett gewesen und es hat ein bisschen
+                angefühlt, wie wäre ich in Indien. Ich habe mich sehr wohl
+                gefühlt.
+              </li>
+
+              <li><b> Hin Faktor: 8/10</b></li>
+              <li>
+                Ich will wieder hin. Ich vermisse den Strand und die warme Luft.
+              </li>
+            </ul>
+            <h3>Gesamtpunktzahl: 38/50</h3>
+          </nav>
+        </div>

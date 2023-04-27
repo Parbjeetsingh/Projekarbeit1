@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+:root {
+  --heading: #e0e1dd;
+  --para: #b3b4b1;
+  --para-tint: #868785;
+  --white: #fff;
+  --black: #000;
+  --helper: #0d1b2a;
+  --helper-tint: #081019;
+  --secondary-helper: #1b263b;
+  --gradient: linear-gradient(
+    0deg,
+    rgba(65, 90, 119, 0.2) 0%,
+    rgba(65, 90, 119, 0.5) 60%
+  );
+  --box-shadow: 0rem 0rem 5rem 0rem #1b263b;
+}
+
+::-webkit-scrollbar {
+  width: 1.5rem;
+  background: var(--helper);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--helper-tint);
+  border: 1px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  background-color: var(--helper);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--heading);
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+h1,
+h2 {
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 6rem;
+}
+
+h3 {
+  font-size: 4.4rem;
+  font-weight: 600;
+}
+
+.section-heading {
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.65rem;
+  color: var(--para);
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.section {
+  padding: 9rem 0;
+  text-align: center;
+}
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 5rem;
+}
+
+.grid-two-column {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.btn {
+  background-color: var(--secondary-helper);
+  color: var(--para);
+  padding: 1.6rem 3.2rem;
+  font-size: 1.65rem;
+  border: none;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 9rem;
+  transition: all 0.3s linear;
+  display: inline-block;
+}
+
+.btn:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+
+.section:nth-child(even) {
+  background-color: var(--helper-tint);
+}
+
+.logo-link {
+  color: var(--para);
+}
+
+figure {
+  position: relative;
+}
+
+.image-source {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  font-size: 1.2rem;
+  background-color: var(--helper);
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.image-source {
+  color: var(--para);
+}
+
+.image-source:hover {
+  text-decoration: underline;
+}
+
+/*************** 
+    Header Section
+***************/
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--helper-tint);
+  height: 10rem;
+  font-size: 2rem;
+  color: var(--para);
+}
+
+.header-logo {
+  font-size: 4rem;
+}
+
+.nav-lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.nav-link {
+  color: inherit;
+  transition: all 0.3s linear;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link-active {
+  color: var(--para-tint);
+}
+
+/*************** 
+    Hero Section 
+***************/
+.section-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: var(--gradient), url("../compressed/venedig6-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 80vh;
+  position: relative;
+}
+.hero-heading {
+  margin-bottom: 2rem;
+}
+
+/*************** 
+    Places Section 
+***************/
+.place {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--helper);
+  border-radius: 3rem;
+}
+
+.place-information {
+  padding: 2rem;
+}
+
+.place-image {
+  overflow: hidden;
+  border-radius: 2rem 2rem 0 0;
+  position: relative;
+  width: 100%;
+  height: 50rem;
+}
+.place-img {
+  transition: all 0.3s linear;
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+}
+
+.place-img:hover {
+  transform: scale(1.1);
+}
+
+.place-btn {
+  margin-top: 2rem;
+}
+
+/*************** 
+    Kontakt Abschnitt 
+***************/
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-input-field {
+  display: flex;
+  flex-direction: column;
+  color: var(--para);
+}
+
+.contact-input {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 100rem;
+}
+
+.contact-input-label {
+  font-size: 1.65rem;
+  text-align: left;
+}
+
+.contact-input-message {
+  height: 20rem;
+  max-width: 100rem;
+  max-height: 20rem;
+  min-width: 100rem;
+  min-height: 20rem;
+}
+
+.contact-btn-send {
+  margin-top: 1rem;
+}
+
+/*************** 
+    Über mich Abschnitt 
+***************/
+.section-about-img {
+  width: 60%;
+  justify-self: center;
+  border-radius: 2rem;
+}
+
+.about-card {
+  background-color: var(--helper-tint);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.section-about-text {
+  align-self: center;
+  justify-self: center;
+}
+
+/*************** 
+    Place Page
+***************/
+.section-place-data {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.place-page-image {
+  width: 100%;
+  align-self: center;
+  justify-self: center;
+  height: 60rem;
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  border-radius: 2rem;
+}
+
+.place-page-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.place-page-information {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.place-page-feedback-list {
+  font-size: 1.65rem;
+  color: var(--para);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/*************** 
+    Footer 
+***************/
+.footer {
+  padding: 4rem 0;
+  text-align: center;
+  font-size: 1.65rem;
+  color: var(--para);
+}
