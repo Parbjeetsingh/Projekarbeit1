@@ -273,12 +273,12 @@ figure {
   display: flex;
   flex-direction: column;
   color: var(--para);
+  width: 100rem;
 }
 
 .contact-input {
   border-radius: 0.5rem;
   padding: 1rem;
-  width: 100rem;
 }
 
 .contact-input-label {
@@ -381,6 +381,18 @@ Media Queries
     max-width: 130rem;
     padding: 0 3.2rem;
   }
+
+  .contact-input-field {
+    width: 100%;
+  }
+
+  .contact-input-message {
+    height: 20rem;
+    max-width: 100%;
+    max-height: 20rem;
+    min-width: 100%;
+    min-height: 20rem;
+  }
 }
 
 @media (max-width: 75em) {
@@ -454,12 +466,12 @@ Media Queries
 /* For 560px */
 @media (max-width: 40em) {
   html {
-    font-size: 30%;
+    font-size: 45%;
   }
 }
 
 @media (max-width: 30em) {
   html {
-    font-size: 20%;
+    font-size: 40%;
   }
 }
