@@ -37,6 +37,7 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   background-color: var(--helper);
+  overflow-x: hidden;
 }
 
 h1,
@@ -147,6 +148,18 @@ figure {
   text-decoration: underline;
 }
 
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+
 /*************** 
     Header Section
 ***************/
@@ -162,6 +175,10 @@ figure {
 
 .header-logo {
   font-size: 4rem;
+}
+
+.header-navbar {
+  overflow-x: hidden;
 }
 
 .nav-lists {
@@ -352,4 +369,97 @@ figure {
   text-align: center;
   font-size: 1.65rem;
   color: var(--para);
+}
+
+/*---------------------------
+Media Queries
+---------------------------*/
+
+/* For 1500px */
+@media (max-width: 95em) {
+  .container {
+    max-width: 130rem;
+    padding: 0 3.2rem;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .container {
+    max-width: 110rem;
+  }
+
+  .grid {
+    gap: 3.5rem;
+  }
+}
+
+/* For 980px */
+@media (max-width: 60em) {
+  html {
+    font-size: 50%;
+  }
+
+  .grid-two-column {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .nav-link {
+    font-size: 5rem;
+  }
+
+  .checkbtn {
+    display: block;
+    z-index: 999;
+    position: relative;
+  }
+  .nav-lists {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: var(--helper-tint);
+    top: 0px;
+    left: 100%;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .nav-list {
+    display: block;
+    line-height: 30px;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+/* For 835px */
+@media (max-width: 45em) {
+  html {
+    font-size: 45%;
+  }
+  .container {
+    max-width: 100%;
+  }
+}
+
+/* For 560px */
+@media (max-width: 40em) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 30em) {
+  html {
+    font-size: 20%;
+  }
 }
