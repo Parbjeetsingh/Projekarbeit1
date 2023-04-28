@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <!-- SEO Tags -->
-   <meta name="description" content="Es geht um meine Ferienorte und berichte wie es war."> 
-   <meta name="robots" content="all">
-   <meta name="author" content="Parbjeet Singh">
+    <!-- SEO Tags -->
+    <meta
+      name="description"
+      content="Es geht um meine Ferienorte und berichte wie es war."
+    />
+    <meta name="robots" content="all" />
+    <meta name="author" content="Parbjeet Singh" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,6 +18,17 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>Parbjeet Singh Ferienorte - Home</title>
@@ -24,24 +38,35 @@
     <!-------------------- 
        Header Abschnitt 
       --------------------->
-      <header class="header">
+    <header class="header">
+      <a class="logo-link" href="/">
         <div class="header-logo logo">Parbjeet Singh</div>
-        <div>
-          <nav class="header-navbar">
-            <ul class="nav-lists">
-              <li class="nav-list">
-                <a class="nav-link" href="/">Home</a>
-              </li>
-              <li class="nav-list"><a class="nav-link" href="#ferienorte">Ferienorte</a></li>
-              <li class="nav-list"><a class="nav-link" href="ueber_mich.html">Über Mich</a></li>
-              <li class="nav-list"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
-
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <main>
-     <!-------------------- 
+      </a>
+      <div>
+        <nav class="header-navbar">
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+          <ul class="nav-lists">
+            <li class="nav-list">
+              <a class="nav-link nav-link-active" href="/">Home</a>
+            </li>
+            <li class="nav-list">
+              <a class="nav-link" href="#ferienorte">Ferienorte</a>
+            </li>
+            <li class="nav-list">
+              <a class="nav-link" href="ueber_mich.html">Über Mich</a>
+            </li>
+            <li class="nav-list">
+              <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-------------------- 
         Willkommen Abschnitt 
       --------------------->
       <section class="section section-hero">
@@ -52,85 +77,148 @@
           </h1>
           <a class="btn btn-dark" href="#ferienorte">Ferienorte</a>
         </div>
+        <span
+          ><a
+            class="image-source"
+            href="https://unsplash.com/de/fotos/FejnmxXs_w4"
+            target="_blank"
+            >Foto von Eve auf Unsplash</a
+          >
+        </span>
       </section>
 
       <section id="ferienorte" class="section section-places">
         <div class="container">
           <h2 class="section-heading">Orte</h2>
           <div class="places grid grid-two-column">
-          <!-------------------- 
+            <!-------------------- 
             Venedig Abschnitt 
           --------------------->
-          <div class="place">
-            <!-- Bild -->
-            <figure class="place-image">
-              <img class="place-img" src="medien/venedig_stadt.jpg" alt="Venidig" />
-              <figcaption class="place-image-source"><a class="place-image-source-link" href="https://unsplash.com/de/fotos/zunQwMy5B6M" target="_blank">Quelle: Foto von Rebe Adelaida auf Unsplash</a></figcaption>
-            </figure>
-            <!-- Information -->
-            <div class="place-information">
-              <h3 class="place-name">Venedig</h3>
-              <a class="place-btn btn btn-dark" href="/venedig.html">Meine Erfahrungen</a>
+            <div class="place">
+              <!-- Bild -->
+              <figure class="place-image">
+                <img
+                  class="place-img"
+                  loading="lazy"
+                  src="compressed/venedig_stadt-min.jpg"
+                  alt="Venidig"
+                />
+                <figcaption class="place-image-source">
+                  <a
+                    class="image-source place-image-source-link"
+                    href="https://unsplash.com/de/fotos/zunQwMy5B6M"
+                    target="_blank"
+                    >Quelle: Foto von Rebe Adelaida auf Unsplash</a
+                  >
+                </figcaption>
+              </figure>
+              <!-- Information -->
+              <div class="place-information">
+                <h3 class="place-name">Venedig</h3>
+                <a class="place-btn btn btn-dark" href="/venedig.html"
+                  >Meine Erfahrungen</a
+                >
+              </div>
             </div>
-          </div>
-   <!-------------------- 
+            <!-------------------- 
           Paris Abschnitt 
           --------------------->
-          <div class="place">
-            <!-- Bild -->
-            <figure class="place-image">
-              <img class="place-img" src="medien/paris_stadt.jpg" alt="Venidig" />
-              <figcaption class="place-image-source"><a class="place-image-source-link" href="https://unsplash.com/de/fotos/R5scocnOOdM" target="_blank"> Quelle: Foto von Léonard Cotte auf Unsplash</a></figcaption>
-            </figure>
-            <!-- Information -->
-            <div class="place-information">
-              <h3 class="place-name">Paris</h3>
-              <a class="place-btn btn btn-dark" href="/paris.html">Meine Erfahrungen</a>
+            <div class="place">
+              <!-- Bild -->
+              <figure class="place-image">
+                <img
+                  class="place-img"
+                  loading="lazy"
+                  src="compressed/paris_stadt-min.jpg"
+                  alt="Venidig"
+                />
+                <figcaption class="place-image-source">
+                  <a
+                    class="image-source place-image-source-link"
+                    href="https://unsplash.com/de/fotos/R5scocnOOdM"
+                    target="_blank"
+                  >
+                    Quelle: Foto von Léonard Cotte auf Unsplash</a
+                  >
+                </figcaption>
+              </figure>
+              <!-- Information -->
+              <div class="place-information">
+                <h3 class="place-name">Paris</h3>
+                <a class="place-btn btn btn-dark" href="/paris.html"
+                  >Meine Erfahrungen</a
+                >
+              </div>
             </div>
-          </div>
-          <!-------------------- 
+            <!-------------------- 
           Amritsar Abschnitt 
           --------------------->
-          <div class="place">
-            <!-- Bild -->
-            <figure class="place-image">
-              <img class="place-img" src="medien/amritsar.jpg" alt="Amritsar" />
-              <figcaption class="place-image-source"><a class="place-image-source-link" href="https://unsplash.com/de/fotos/LZZlSpnvunM" target="_blank">Quelle: Foto von Rhythm Kwatra auf Unsplash</a></figcaption>
-            </figure>
-            <!-- Information -->
-            <div class="place-information">
-              <h3 class="place-name">Amritsar</h3>
-              <a class="place-btn btn btn-dark" href="/amritsar.html">Meine Erfahrungen</a>
+            <div class="place">
+              <!-- Bild -->
+              <figure class="place-image">
+                <img
+                  class="place-img"
+                  loading="lazy"
+                  src="compressed/amritsar-min.jpg"
+                  alt="Amritsar"
+                />
+                <figcaption class="place-image-source">
+                  <a
+                    class="image-source place-image-source-link"
+                    href="https://unsplash.com/de/fotos/LZZlSpnvunM"
+                    target="_blank"
+                    >Quelle: Foto von Rhythm Kwatra auf Unsplash</a
+                  >
+                </figcaption>
+              </figure>
+              <!-- Information -->
+              <div class="place-information">
+                <h3 class="place-name">Amritsar</h3>
+                <a class="place-btn btn btn-dark" href="/amritsar.html"
+                  >Meine Erfahrungen</a
+                >
+              </div>
             </div>
-          </div>
-             <!-------------------- 
+            <!-------------------- 
           Faro Abschnitt 
           --------------------->
-          <div class="place">
-            <!-- Bild -->
-            <figure class="place-image">
-              <img class="place-img" src="medien/faro.jpg" alt="Faro" />
-              <figcaption class="place-image-source"><a class="place-image-source-link" href="https://unsplash.com/de/fotos/3HS4KkwA-mM" target="_blank">Quelle: Foto von Javier Balseiro auf Unsplash</a></figcaption>
-            </figure>
-            <!-- Information -->
-            <div class="place-information">
-              <h3 class="place-name">Faro</h3>
-              <a class="place-btn btn btn-dark" href="/faro.html">Meine Erfahrungen</a>
+            <div class="place">
+              <!-- Bild -->
+              <figure class="place-image">
+                <img
+                  class="place-img"
+                  loading="lazy"
+                  src="compressed/faro-min.jpg"
+                  alt="Faro"
+                />
+                <figcaption class="place-image-source">
+                  <a
+                    class="image-source place-image-source-link"
+                    href="https://unsplash.com/de/fotos/3HS4KkwA-mM"
+                    target="_blank"
+                    >Quelle: Foto von Javier Balseiro auf Unsplash</a
+                  >
+                </figcaption>
+              </figure>
+              <!-- Information -->
+              <div class="place-information">
+                <h3 class="place-name">Faro</h3>
+                <a class="place-btn btn btn-dark" href="/faro.html"
+                  >Meine Erfahrungen</a
+                >
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </section>
     </main>
-           <!-------------------- 
+    <!-------------------- 
          Footer Abschnitt
           --------------------->
     <footer class="footer">
-      <div class="container footer-text" >
-      &copy; Copyright 2023 Parbjeet Singh
+      <div class="container footer-text">
+        &copy; Copyright 2023 Parbjeet Singh
       </div>
     </footer>
- </body>
+  </body>
 </html>
-
-

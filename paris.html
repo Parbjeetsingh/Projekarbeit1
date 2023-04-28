@@ -1,107 +1,194 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--css-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO Tags -->
+    <meta
+      name="description"
+      content="Es geht um meine Ferienorte und berichte wie es war."
+    />
+    <meta name="robots" content="all" />
+    <meta name="author" content="Parbjeet Singh" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Paris</title>
-</head>
-<body>
+    <title>Parbjeet Singh Ferienorte - Paris</title>
+  </head>
 
-      <!-------------------- 
+  <body>
+    <!-------------------- 
        Header Abschnitt 
       --------------------->
-      <header class="header">
+    <header class="header">
+      <a class="logo-link" href="/">
         <div class="header-logo logo">Parbjeet Singh</div>
-        <div>
-          <nav class="header-navbar">
-            <ul class="nav-lists">
-              <li class="nav-list">
-                <a class="nav-link" href="/">Home</a>
-              </li>
-              <li class="nav-list"><a class="nav-link" href="ueber_mich.html">Über Mich</a></li>
-              <li class="nav-list"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
-              <li class="nav-list"><a class="nav-link" href="ferienorte">Ferienorte</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      
-
-      <main>
-    <section class="section section-place section-place-venice">
-        <div class="container section-place-data">
-         <h2 class="place-page-name">Paris</h2>
-         <div class="grid grid-two-column">
-          <div>
-        <img class="place-page-image" src="medien/paris_stadt.jpg" alt="die stadt Paris" />
-      </div>
-
-      <div class="place-page-text">
-        <h3 class="place-page-secondary-heading" >Info</h3>
-          <p  class="place-page-information">
-           Paris ist die Hauptstadt Frankreichs und eine der bekanntesten Städte der Welt.
-           Die Stadt liegt im Norden Frankreichs und wird vom Fluss Seine durchquert.
-           Paris ist bekannt für seine einzigartige Architektur, darunter den Eiffelturm, den Louvre, die Kathedrale Notre-Dame und die Champs-Élysées.
-           Paris ist ein wichtiger globaler Wirtschaftsstandort und ein Zentrum für Bildung und Forschung.
-           Die Stadt ist auch bekannt für ihre kulinarischen Köstlichkeiten wie Croissants, Baguettes, Käse und Wein.
-           Paris hat jedoch auch Probleme wie die hohe Luftverschmutzung und den Verkehr, sowie soziale Herausforderungen wie Wohnungsnot und Ungleichheit.
-          </p>
-      </div>
-
-        <div class="place-page-text">
-          <h3 class="place-page-secondary-heading">Meine Erfahrungen</h3>
-          <p class="place-page-information">
-            2018 sind wir mit dem Auto nach Paris gefahren. Wir wollten mein
-            Im Jahr 2018 fuhren wir mit dem Auto nach Paris, um meinen Onkel zu besuchen. Nach einer neunstündigen Fahrt kamen wir bei ihm an und übernachteten bei ihm. Am nächsten Morgen frühstückten wir in einer Bäckerei, wo wir das beste Frühstück unseres Lebens hatten. Danach besuchten wir den Eiffelturm, der jedoch aufgrund von Renovierungsarbeiten leider geschlossen war und wir konnten nicht hinaufgehen. Anschließend besuchten wir den Fuente de los Jardines del Trocadero, der sogar besser als der Eiffelturm war.
-            Am Abend feierten wir noch und am nächsten Morgen fuhren wir weiter nach Belgien, wo der beste Freund meines Vaters auf uns wartete.            
-          </p>
-        </div>
-          <img class="place-page-image" src="medien/paris.jpg" alt="Wasserpark" />
-
-        <div class="place-page-text">
-          <h3 class="place-page-secondary-heading">Wie sehr lohnt sich eine Reise nach Paris?</h3>
-          <ul class="place-page-feedback-list">
-            <li class="place-page-feedback">Anreise: 7/10</li>
-            <li class="place-page-feedback">
-              Man kann mit dem Auto nach Paris fahren oder einen Flug nehmen, der nur eine Stunde dauert.
+      </a>
+      <div>
+        <nav class="header-navbar">
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+          <ul class="nav-lists">
+            <li class="nav-list">
+              <a class="nav-link nav-link-active" href="/">Home</a>
             </li>
-
-            <li class="place-page-feedback">Die Location: 10/10</li>
-            <li class="place-page-feedback">
-              Die Stadt ist sehr sauber und schön. Es gibt viele Sehenswürdigkeiten, wie z.B. der Eiffelturm, Louvre, Notre-Dame oder das Versailles.
+            <li class="nav-list">
+              <a class="nav-link" href="#ferienorte">Ferienorte</a>
             </li>
-
-            <li class="place-page-feedback">Spaßfaktor: 8/10</li>
-            <li class="place-page-feedback">
-              Das Frühstück war sehr lecker und es war aufregend, den Eiffelturm zu sehen. Es gibt auch viele andere Aktivitäten, wie z.B. Shopping in den berühmten Kaufhäusern wie Galeries Lafayette, Besuch von Parks und Gärten wie dem Jardin du Luxembourg oder Bootsfahrten auf der Seine.
+            <li class="nav-list">
+              <a class="nav-link" href="ueber_mich.html">Über Mich</a>
             </li>
-
-            <li class="place-page-feedback">Wohlfaktor: 7/10</li>
-            <li class="place-page-feedback">
-              Die Menschen waren freundlich und hilfsbereit, und ich fühlte mich sehr wohl in der Stadt.
+            <li class="nav-list">
+              <a class="nav-link" href="kontakt.html">Kontakt</a>
             </li>
-
-            <li class="place-page-feedback">Wiederholfaktor: 7/10</li>
-            <li class="place-page-feedback">Ich würde gerne wieder nach Paris reisen, aber es ist nicht unbedingt ein Muss für mich.</li>
           </ul>
-        </div>
+        </nav>
       </div>
-          <h3 class="place-page-secondary-heading place-page-rating">Gesamtpunktzahl: 39/50</h3>
-    </div>
-    </section>
-    </main>
+    </header>
+    <main>
+      <section class="section section-place section-place-paris">
+        <div class="container section-place-data">
+          <h2 class="place-page-name">Paris</h2>
+          <div class="grid grid-two-column">
+            <figure class="place-page-image">
+              <img
+                class="place-page-img"
+                loading="lazy"
+                src="compressed/paris_stadt-min.jpg"
+                alt="die stadt Paris"
+              />
+              <figcaption class="section-place-image-source">
+                <a
+                  class="image-source"
+                  href="https://unsplash.com/de/fotos/R5scocnOOdM"
+                  target="_blank"
+                >
+                  Quelle: Foto von Léonard Cotte auf Unsplash
+                </a>
+              </figcaption>
+            </figure>
+            <div class="place-page-information">
+              <h3 class="place-page-tertiary-heading">Info</h3>
+              <p class="place-page-text">
+                Paris ist die Hauptstadt Frankreichs und eine der bekanntesten
+                Städte der Welt. Die Stadt liegt im Norden Frankreichs und wird
+                vom Fluss Seine durchquert. Paris ist bekannt für seine
+                einzigartige Architektur, darunter den Eiffelturm, den Louvre,
+                die Kathedrale Notre-Dame und die Champs-Élysées. Paris ist ein
+                wichtiger globaler Wirtschaftsstandort und ein Zentrum für
+                Bildung und Forschung. Die Stadt ist auch bekannt für ihre
+                kulinarischen Köstlichkeiten wie Croissants, Baguettes, Käse und
+                Wein. Paris hat jedoch auch Probleme wie die hohe
+                Luftverschmutzung und den Verkehr, sowie soziale
+                Herausforderungen wie Wohnungsnot und Ungleichheit.
+              </p>
+            </div>
+            <div class="place-page-information">
+              <h3 class="place-page-tertiary-heading">Meine Erfahrungen</h3>
+              <p class="place-page-text">
+                2018 fuhren wir mit dem Auto nach Paris, um meinen Onkel
+                zu besuchen. Nach einer neunstündigen Fahrt kamen wir bei ihm an
+                und übernachteten bei ihm. Am nächsten Morgen frühstückten wir
+                in einer Bäckerei, wo wir das beste Frühstück unseres Lebens
+                hatten. Danach besuchten wir den Eiffelturm, der jedoch aufgrund
+                von Renovierungsarbeiten leider geschlossen war und wir konnten
+                nicht hinaufgehen. Anschließend besuchten wir den Jardins du Trocadéro, der sogar besser als der Eiffelturm war.
+                Am Abend feierten wir noch und am nächsten Morgen fuhren wir
+                weiter nach Belgien, wo der beste Freund meines Vaters auf uns
+                wartete.
+              </p>
+            </div>
+            <figure class="place-page-image">
+              <img
+                class="place-page-img"
+                loading="lazy"
+                src="compressed/paris-min.jpg"
+                alt="Wasserpark"
+              />
+              <figcaption class="section-place-image-source">
+                <a
+                  class="image-source"
+                  href="https://www.pexels.com/de-de/foto/stadt-strasse-wasser-gebaude-10674648/"
+                  target="_blank"
+                >
+                  Quelle: Foto von Jose Vasquez auf Pexels
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="place-page-information">
+            <h3 class="place-page-tertiary-heading">
+              Wie sehr lohnt sich eine Reise nach Paris?
+            </h3>
+            <ul class="place-page-feedback-list">
+              <li class="place-page-feedback">Anreise: 7/10</li>
+              <li class="place-page-feedback">
+                Man kann mit dem Auto nach Paris fahren oder einen Flug nehmen,
+                der nur eine Stunde dauert.
+              </li>
 
-        <!-------------------- 
+              <li class="place-page-feedback">Die Location: 10/10</li>
+              <li class="place-page-feedback">
+                Die Stadt ist sehr sauber und schön. Es gibt viele
+                Sehenswürdigkeiten, wie z.B. der Eiffelturm, Louvre, Notre-Dame
+                oder das Versailles.
+              </li>
+
+              <li class="place-page-feedback">Spaßfaktor: 8/10</li>
+              <li class="place-page-feedback">
+                Das Frühstück war sehr lecker und es war aufregend, den
+                Eiffelturm zu sehen. Es gibt auch viele andere Aktivitäten, wie
+                z.B. Shopping in den berühmten Kaufhäusern wie Galeries
+                Lafayette, Besuch von Parks und Gärten wie dem Jardin du
+                Luxembourg oder Bootsfahrten auf der Seine.
+              </li>
+
+              <li class="place-page-feedback">Wohlfaktor: 7/10</li>
+              <li class="place-page-feedback">
+                Die Menschen waren freundlich und hilfsbereit, und ich fühlte
+                mich sehr wohl in der Stadt.
+              </li>
+
+              <li class="place-page-feedback">Wiederholfaktor: 7/10</li>
+              <li class="place-page-feedback">
+                Ich würde gerne wieder nach Paris reisen, aber es ist nicht
+                unbedingt ein Muss für mich.
+              </li>
+            </ul>
+          </div>
+          <h3 class="place-page-tertiary-heading place-page-rating">
+            Gesamtpunktzahl: 39/50
+          </h3>
+        </div>
+      </section>
+    </main>
+    <!-------------------- 
          Footer Abschnitt
           --------------------->
-          <footer class="footer">
-            <div class="container footer-text">
-              &copy; Copyright 2023 Parbjeet Singh
-            </div>
-          </footer>
-</body>
+    <footer class="footer">
+      <div class="container footer-text">
+        &copy; Copyright 2023 Parbjeet Singh
+      </div>
+    </footer>
+  </body>
 </html>

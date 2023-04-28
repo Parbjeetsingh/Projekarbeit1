@@ -18,9 +18,20 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Parbjeet Singh Ferienorte - Home</title>
+    <title>Parbjeet Singh Ferienorte - Venedig</title>
   </head>
 
   <body>
@@ -28,12 +39,18 @@
        Header Abschnitt 
       --------------------->
     <header class="header">
-      <div class="header-logo logo">Parbjeet Singh</div>
+      <a class="logo-link" href="/">
+        <div class="header-logo logo">Parbjeet Singh</div>
+      </a>
       <div>
         <nav class="header-navbar">
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
           <ul class="nav-lists">
             <li class="nav-list">
-              <a class="nav-link" href="/">Home</a>
+              <a class="nav-link nav-link-active" href="/">Home</a>
             </li>
             <li class="nav-list">
               <a class="nav-link" href="#ferienorte">Ferienorte</a>
@@ -49,22 +66,31 @@
       </div>
     </header>
 
-    
     <main>
       <section class="section section-place section-place-venice">
         <div class="container section-place-data">
           <h2 class="place-page-name">Venedig</h2>
           <div class="grid grid-two-column">
-            <div>
+            <figure class="place-page-image">
               <img
-                class="place-page-image"
-                src="medien/venedig_stadt.jpg"
+                class="place-page-img"
+                loading="lazy"
+                src="compressed/venedig_stadt-min.jpg"
                 alt="die stadt venedig"
               />
-            </div>
-            <div class="place-page-text">
-              <h3 class="place-page-secondary-heading">Info</h3>
-              <p class="place-page-information">
+              <figcaption class="section-place-image-source">
+                <a
+                  class="image-source"
+                  href="https://unsplash.com/de/fotos/zunQwMy5B6M"
+                  target="_blank"
+                >
+                  Quelle: Foto von Rebe Adelaida auf Unsplash
+                </a>
+              </figcaption>
+            </figure>
+            <div class="place-page-information">
+              <h3 class="place-page-tertiary-heading">Info</h3>
+              <p class="place-page-text">
                 Venedig ist eine Stadt im Nordosten Italiens und die Hauptstadt
                 der Region Venetien. Die Stadt ist auf 118 kleinen Inseln in der
                 Lagune von Venedig gebaut und wird von 177 Kanälen durchzogen.
@@ -75,13 +101,13 @@
                 Stadt überschwemmt und beschädigt wird.
               </p>
             </div>
-            <div class="place-page-text">
-              <h3 class="place-page-secondary-heading">Meine Erfahrungen</h3>
-              <p class="place-page-information">
+            <div class="place-page-information">
+              <h3 class="place-page-tertiary-heading">Meine Erfahrungen</h3>
+              <p class="place-page-text">
                 In den Frühlingsferien 2021 besuchte mein Onkel aus Indien mit
                 seiner Familie mich. Wir planten, gemeinsam nach Venedig zu
                 fahren und so fuhren wir mit zwei Autos, insgesamt zu zwölft.
-                Auch meine Tante aus Will wollte mit uns nach Venedig und so
+                Auch meine Tante aus Wil wollte mit uns nach Venedig und so
                 waren wir insgesamt drei Familien. Die Fahrt nach Venedig
                 genossen wir sehr. Nach unserer Ankunft buchten wir ein Hotel
                 für drei Nächte und erkundeten die Stadt am nächsten Tag. Dabei
@@ -92,18 +118,24 @@
                 wir schließlich die Heimreise antraten.
               </p>
             </div>
-            <img
-              class="place-page-image"
-              src="medien/venedig.jpg"
-              alt="flus venedig"
-            />
-            <img
-              class="place-page-image"
-              src="medien/venedig_boot_mieten.jpg"
-              alt="venedig boot mieten"
-            />
-            <div class="place-page-text">
-              <h3 class="place-page-secondary-heading">
+            <figure class="place-page-image">
+              <img
+                class="place-page-img"
+                loading="lazy"
+                src="compressed/venedig-min.jpg"
+                alt="flus venedig"
+              />
+            </figure>
+            <div class="place-page-image">
+              <img
+                class="place-page-img"
+                loading="lazy"
+                src="compressed/venedig_boot_mieten-min.jpg"
+                alt="venedig boot mieten"
+              />
+            </div>
+            <div class="place-page-information">
+              <h3 class="place-page-tertiary-heading">
                 Wie sehr lohnt sich eine Reise nach Venedig?
               </h3>
               <ul class="place-page-feedback-list">
@@ -140,7 +172,7 @@
               </ul>
             </div>
           </div>
-          <h3 class="place-page-secondary-heading place-page-rating">
+          <h3 class="place-page-tertiary-heading place-page-rating">
             Gesamtpunktzahl: 36/50
           </h3>
         </div>
@@ -154,5 +186,5 @@
         &copy; Copyright 2023 Parbjeet Singh
       </div>
     </footer>
-  </body>
+  </body>
 </html>

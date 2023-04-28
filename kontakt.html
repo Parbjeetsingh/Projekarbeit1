@@ -18,9 +18,20 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Parbjeet Singh Ferienorte - Home</title>
+    <title>Parbjeet Singh Ferienorte - Kontakt</title>
   </head>
 
   <body>
@@ -28,12 +39,18 @@
        Header Abschnitt 
       --------------------->
     <header class="header">
-      <div class="header-logo logo">Parbjeet Singh</div>
+      <a class="logo-link" href="/">
+        <div class="header-logo logo">Parbjeet Singh</div>
+      </a>
       <div>
         <nav class="header-navbar">
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
           <ul class="nav-lists">
             <li class="nav-list">
-              <a class="nav-link" href="/">Home</a>
+              <a class="nav-link nav-link-active" href="/">Home</a>
             </li>
             <li class="nav-list">
               <a class="nav-link" href="#ferienorte">Ferienorte</a>
@@ -53,14 +70,21 @@
          Contact Section
           --------------------->
       <section class="section section-contact">
-          <div class="container">
-            <form action="https://formspree.io/f/xnqylkld"
-            method="POST" class="contact-form">
+        <div class="container">
+          <form
+            action="https://formspree.io/f/xnqylkld"
+            method="POST"
+            class="contact-form"
+          >
             <h2 class="section-heading">Kontakt</h2>
             <div class="contact-input-field">
-              <label class="contact-input-label contact-input-label-name" for="name">Name:</label>
+              <label
+                class="contact-input-label contact-input-label-name"
+                for="name"
+                >Name:</label
+              >
               <input
-              class="contact-input contact-input-name"
+                class="contact-input contact-input-name"
                 type="text"
                 id="name"
                 name="name"
@@ -69,9 +93,13 @@
               />
             </div>
             <div class="contact-input-field contact-input-email">
-              <label class="contact-input-label contact-input-label-email" for="email">Email:</label>
+              <label
+                class="contact-input-label contact-input-label-email"
+                for="email"
+                >Email:</label
+              >
               <input
-              class="contact-input"
+                class="contact-input"
                 type="email"
                 id="email"
                 name="email"
@@ -80,9 +108,13 @@
               />
             </div>
             <div class="contact-input-field">
-              <label class="contact-input-label contact-input-label-subject" for="subject">Betreff:</label>
+              <label
+                class="contact-input-label contact-input-label-subject"
+                for="subject"
+                >Betreff:</label
+              >
               <input
-              class="contact-input  contact-input-subject"
+                class="contact-input contact-input-subject"
                 type="text"
                 id="subject"
                 name="betreff"
@@ -91,18 +123,26 @@
               />
             </div>
             <div class="contact-input-field">
-              <label class="contact-input-label contact-input-label-message" for="message">Nachricht:</label>
+              <label
+                class="contact-input-label contact-input-label-message"
+                for="message"
+                >Nachricht:</label
+              >
               <textarea
-              class="contact-input contact-input-message"
+                class="contact-input contact-input-message"
                 id="message"
                 name="Nachricht"
                 placeholder="Nachricht"
                 required
               ></textarea>
             </div>
-            <input class="btn contact-btn-send" type="submit" value="Schicken" />
+            <input
+              class="btn contact-btn-send"
+              type="submit"
+              value="Schicken"
+            />
           </form>
-          </div>
+        </div>
       </section>
     </main>
     <!-------------------- 
