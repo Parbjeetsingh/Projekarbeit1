@@ -408,7 +408,7 @@ Media Queries
   }
 }
 
-/* For 980px */
+/* For 960px */
 @media (max-width: 60em) {
   html {
     font-size: 50%;
