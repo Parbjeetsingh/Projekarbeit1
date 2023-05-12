@@ -1,7 +1,11 @@
 * {
+  /* margin für abstand von auserhalb des border*/
   margin: 0;
+  /* padding für abstand inerhalb des border*/
   padding: 0;
+  /*  die Elemente bleiben in den rand und können sich nicht verschieben*/
   box-sizing: border-box;
+  /*  Die Schrift von der Seite */
   font-family: "Roboto Slab", serif;
 }
 
